@@ -63,7 +63,7 @@ const Profile = ({ pokemonData }) => {
                         <span>{height}0 cm</span>
                     </div>
                 </div>
-                <button className={`color-${types[0].type.name} ${styles.return_btn}`} onClick={() => navigate("/")}>Voltar</button>
+                <button className={`color-${types[0].type.name} ${styles.return_btn}`} onClick={() => navigate("/Pokedex")}>Voltar</button>
             </div>
         </div>
 
