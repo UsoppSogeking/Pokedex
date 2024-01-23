@@ -1,0 +1,17 @@
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+.navbar {
+    width: 300px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    margin: 20px auto;
+    color: crimson;
+}
+
+.navbar::placeholder {
+    color: rgb(192, 64, 90);
+}

@@ -1,0 +1,40 @@
+.home {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card_container {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.btn_div {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.more_button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: dodgerblue;
+    color: #FFF;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.more_button:hover {
+    border: 1px solid dodgerblue;
+    background-color: #FFF;
+    color: dodgerblue;
+}
