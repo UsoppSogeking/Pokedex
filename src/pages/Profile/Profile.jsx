@@ -9,7 +9,7 @@ const Profile = ({ pokemonData }) => {
 
     useEffect(() => {
         if (!pokemonData) {
-            navigate("/");
+            navigate("/Pokedex");
         }
     }, []);
 
