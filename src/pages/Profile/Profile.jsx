@@ -17,6 +17,12 @@ const Profile = ({ pokemonData }) => {
         return null;
     }
 
+    let cm = height * 10;
+    let metros = cm / 100;
+
+    let g = weight * 100;
+    let kg = g / 1000;
+
     //console.log(pokemonData);
     return (
         <div className={styles.info_container}>
@@ -55,12 +61,12 @@ const Profile = ({ pokemonData }) => {
                 <div className={styles.div_datas}>
                     <div className={styles.weight_group}>
                         <h3>weight</h3>
-                        <span>{weight}00g</span>
+                        <span>{kg}kg</span>
                     </div>
 
                     <div className={styles.height_group}>
                         <h3>height</h3>
-                        <span>{height}0 cm</span>
+                        <span>{metros}m</span>
                     </div>
                 </div>
                 <button className={`color-${types[0].type.name} ${styles.return_btn}`} onClick={() => navigate("/Pokedex")}>Voltar</button>
