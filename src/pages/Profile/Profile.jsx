@@ -61,12 +61,12 @@ const Profile = ({ pokemonData }) => {
                 <div className={styles.div_datas}>
                     <div className={styles.weight_group}>
                         <h3>weight</h3>
-                        <span>{kg}kg</span>
+                        <span>{kg} kg</span>
                     </div>
 
                     <div className={styles.height_group}>
                         <h3>height</h3>
-                        <span>{metros}m</span>
+                        <span>{metros} m</span>
                     </div>
                 </div>
                 <button className={`color-${types[0].type.name} ${styles.return_btn}`} onClick={() => navigate("/Pokedex")}>Voltar</button>
